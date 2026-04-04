@@ -1,0 +1,208 @@
+import { Bluza } from '../models/wardrobe';
+
+export const BLUZE_DATA: Bluza[] = [
+  {
+    cod_articol: "NEW-B001",
+    model: "BLUZĂ CU TALIE ELASTICĂ ȘI DECOLTEU BĂRCUȚĂ",
+    pret_ron: 129.90,
+    culoare: "Negru",
+    img_url: "wardrobe/bluza/bluza1.jpg",
+    marimi_disponibile: ["S", "M", "L"],
+    sezon: "Primăvară/Toamnă",
+    stil_general: ["chic", "minimalist"],
+    ocazie: ["daily", "office"],
+    detalii: {
+      stil: "Casual-Elegant",
+      tip_guler: "Bărcuță",
+      material: "Tricot fin",
+      tip_maneca: "Lungă"
+    }
+  },
+  {
+    cod_articol: "NEW-B002",
+    model: "BLUZĂ CU VOLANE ȘI MÂNECI BUFANTE",
+    pret_ron: 149.90,
+    culoare: "Negru",
+    img_url: "wardrobe/bluza/bluza2.jpg",
+    marimi_disponibile: ["XS", "S", "M"],
+    sezon: "Primăvară/Toamnă",
+    stil_general: ["romantic", "structured"],
+    ocazie: ["date night", "party"],
+    detalii: {
+      stil: "Elegant",
+      tip_guler: "Rotund",
+      material: "Bumbac dens",
+      tip_maneca: "Bufantă / Lungă"
+    }
+  },
+  {
+    cod_articol: "NEW-B003",
+    model: "MALETĂ BASIC DIN TRICOT",
+    pret_ron: 89.90,
+    culoare: "Gri melanj",
+    img_url: "wardrobe/bluza/bluza3.jpg",
+    marimi_disponibile: ["S", "M", "L", "XL"],
+    sezon: "Iarnă",
+    stil_general: ["basic", "minimalist"],
+    ocazie: ["daily", "office"],
+    detalii: {
+      stil: "Casual",
+      tip_guler: "Turtleneck",
+      material: "Tricot",
+      tip_maneca: "Lungă"
+    }
+  },
+  {
+    cod_articol: "NEW-B004",
+    model: "CARDIGAN OVERSIZE FĂRĂ ÎNCHIDERE",
+    pret_ron: 159.90,
+    culoare: "Maro taupe",
+    img_url: "wardrobe/bluza/bluza4.jpg",
+    marimi_disponibile: ["S-M", "L-XL"],
+    sezon: "Iarnă",
+    stil_general: ["cozy", "casual"],
+    ocazie: ["daily", "home office"],
+    detalii: {
+      stil: "Knitwear",
+      tip_guler: "Deschis",
+      material: "Lână / Acril",
+      tip_maneca: "Lungă / Oversize"
+    }
+  },
+  {
+    cod_articol: "NEW-B005",
+    model: "PULOVER TEXTURAT CU GULER SEMI-ÎNALT",
+    pret_ron: 139.90,
+    culoare: "Gri antracit",
+    img_url: "wardrobe/bluza/bluza5.jpg",
+    marimi_disponibile: ["S", "M", "L"],
+    sezon: "Iarnă",
+    stil_general: ["casual", "soft"],
+    ocazie: ["daily", "weekend"],
+    detalii: {
+      stil: "Knitwear",
+      tip_guler: "Semi-înalt",
+      material: "Chenille / Catifelat",
+      tip_maneca: "Lungă"
+    }
+  },
+  {
+    cod_articol: "NEW-B006",
+    model: "BLUZĂ REIATĂ CU NASTURI ȘI GULER",
+    pret_ron: 119.90,
+    culoare: "Gri închis",
+    img_url: "wardrobe/bluza/bluza6.jpg",
+    marimi_disponibile: ["S", "M", "L"],
+    sezon: "Primăvară/Toamnă",
+    stil_general: ["casual", "office"],
+    ocazie: ["work", "daily"],
+    detalii: {
+      stil: "Casual-Office",
+      tip_guler: "Polo / Cămașă",
+      material: "Tricot reiat",
+      tip_maneca: "Lungă"
+    }
+  },
+{
+    cod_articol: "NEW-B007",
+    model: "HANORAC CU GLUGĂ NIKE",
+    pret_ron: 249.90,
+    culoare: "Negru",
+    img_url: "wardrobe/bluza/bluza7.jpeg",
+    marimi_disponibile: ["S", "M", "L", "XL"],
+    sezon: "All Season",
+    stil_general: ["sportive", "streetwear"],
+    ocazie: ["gym", "daily"],
+    detalii: {
+      stil: "Sport",
+      tip_guler: "Glugă",
+      material: "Bumbac / Poliester",
+      tip_maneca: "Lungă"
+    }
+  },
+  {
+    cod_articol: "NEW-B008",
+    model: "BLUZĂ SPORT CU FERMOAR",
+    pret_ron: 139.90,
+    culoare: "Negru",
+    img_url: "wardrobe/bluza/bluza8.jpg",
+    marimi_disponibile: ["XS", "S", "M", "L"],
+    sezon: "All Season",
+    stil_general: ["sportive", "minimalist"],
+    ocazie: ["gym", "running"],
+    detalii: {
+      stil: "Slim fit sport",
+      tip_guler: "Înalt",
+      material: "Sintetic elastic",
+      tip_maneca: "Lungă"
+    }
+  },
+  {
+    cod_articol: "NEW-B009",
+    model: "PULOVER OVERSIZE CU DUNGI",
+    pret_ron: 159.90,
+    culoare: "Alb / Verde",
+    img_url: "wardrobe/bluza/bluza9.jpg",
+    marimi_disponibile: ["S-M", "L-XL"],
+    sezon: "Iarnă",
+    stil_general: ["casual", "cozy"],
+    ocazie: ["daily", "weekend"],
+    detalii: {
+      stil: "Oversize",
+      tip_guler: "Rotund",
+      material: "Tricot",
+      tip_maneca: "Lungă / Largă"
+    }
+  },
+  {
+    cod_articol: "NEW-B010",
+    model: "PULOVER CROP CU DUNGI LATE",
+    pret_ron: 129.90,
+    culoare: "Bej / Maro",
+    img_url: "wardrobe/bluza/bluza10.jpg",
+    marimi_disponibile: ["S", "M", "L"],
+    sezon: "Toamnă/Iarnă",
+    stil_general: ["casual", "vintage"],
+    ocazie: ["daily", "outing"],
+    detalii: {
+      stil: "Crop / Boxy",
+      tip_guler: "Rotund",
+      material: "Tricot texturat",
+      tip_maneca: "Lungă"
+    }
+  },
+  {
+    cod_articol: "NEW-B011",
+    model: "BLUZĂ DIN MESH CU IMPRIMEU ABSTRACT",
+    pret_ron: 109.90,
+    culoare: "Multicolor / Maro",
+    img_url: "wardrobe/bluza/bluza11.jpg",
+    marimi_disponibile: ["XS", "S", "M"],
+    sezon: "Primăvară/Toamnă",
+    stil_general: ["chic", "modern"],
+    ocazie: ["party", "date night"],
+    detalii: {
+      stil: "Transparent / Mesh",
+      tip_guler: "Asimetric",
+      material: "Mesh / Poliester",
+      tip_maneca: "Lungă"
+    }
+  },
+  {
+    cod_articol: "NEW-B012",
+    model: "PULOVER CROP CU DECOLTEU ÎN V",
+    pret_ron: 99.90,
+    culoare: "Alb",
+    img_url: "wardrobe/bluza/bluza12.jpg",
+    marimi_disponibile: ["S", "M", "L"],
+    sezon: "Primăvară/Toamnă",
+    stil_general: ["minimalist", "clean look"],
+    ocazie: ["daily", "brunch"],
+    detalii: {
+      stil: "Crop",
+      tip_guler: "Decolteu în V",
+      material: "Tricot reiat fin",
+      tip_maneca: "Lungă"
+    }
+  }
+];

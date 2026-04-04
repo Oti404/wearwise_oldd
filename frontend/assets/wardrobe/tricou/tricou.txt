@@ -1,0 +1,196 @@
+import { Tricou } from '../models/wardrobe';
+
+export const DATE_TRICOURI: Tricou[] = [
+  {
+    cod_articol: "4424/306/250-1",
+    model: "TRICOU RUSTIC DIN BUMBAC",
+    pret_ron: 39.90,
+    culoare: "Alb",
+    img_url: "wardrobe/tricou/tricou1.jpg",
+    marimi_disponibile: ["S", "M", "L", "XL"],
+    sezon: "Vară",
+    stil_general: ["casual", "minimalist"],
+    ocazie: ["daily", "brunch"],
+    detalii: {
+      material: "Bumbac",
+      croiala: "Regular Fit",
+      tip_maneca: "Scurtă"
+    }
+  },
+  {
+    cod_articol: "4424/306/250-2",
+    model: "TRICOU RUSTIC DIN BUMBAC (V2)",
+    pret_ron: 39.90,
+    culoare: "Alb",
+    img_url: "wardrobe/tricou/tricou2.jpg",
+    marimi_disponibile: ["S", "M", "L", "XL"],
+    sezon: "Vară",
+    stil_general: ["casual"],
+    ocazie: ["daily"],
+    detalii: {
+      material: "Bumbac",
+      croiala: "Regular Fit",
+      tip_maneca: "Scurtă"
+    }
+  },
+  {
+    cod_articol: "6236/003/615",
+    model: "PULOVER DIN TRICOT CU MÂNECĂ SCURTĂ",
+    pret_ron: 129.90,
+    culoare: "Portocaliu",
+    img_url: "wardrobe/tricou/tricou3.jpg",
+    marimi_disponibile: ["S", "M", "L", "XL"],
+    sezon: "Primăvară/Toamnă",
+    stil_general: ["chic", "knitwear"],
+    ocazie: ["office", "lunch date"],
+    detalii: {
+      material: "Tricot",
+      croiala: "Standard",
+      tip_maneca: "Scurtă"
+    }
+  },
+  {
+    cod_articol: "9598/057/636",
+    model: "PULOVER DIN LÂNĂ 100% CU MÂNECĂ SCURTĂ",
+    pret_ron: 149.90,
+    culoare: "Roz bonbon",
+    img_url: "wardrobe/tricou/tricou4.jpg",
+    marimi_disponibile: ["S", "M", "L", "XL"],
+    sezon: "Iarnă",
+    stil_general: ["elegant", "premium"],
+    ocazie: ["office", "evening"],
+    detalii: {
+      material: "Lână 100%",
+      croiala: "Standard",
+      tip_maneca: "Scurtă"
+    }
+  },
+  {
+    cod_articol: "0858/038/511",
+    model: "TRICOU CU DECOLTEU ÎN V",
+    pret_ron: 79.90,
+    culoare: "Fistic",
+    img_url: "wardrobe/tricou/tricou6.jpg",
+    marimi_disponibile: ["S", "M", "L"],
+    sezon: "Vară",
+    stil_general: ["streetwear", "casual"],
+    ocazie: ["daily", "outing"],
+    detalii: {
+      material: "Standard",
+      croiala: "Oversize",
+      tip_maneca: "Scurtă"
+    }
+  },
+  {
+    cod_articol: "3921/012/401",
+    model: "TOP DIN TRICOT CU LÂNĂ",
+    pret_ron: 99.90,
+    culoare: "Bleumarin",
+    img_url: "wardrobe/tricou/tricou7.jpg",
+    marimi_disponibile: ["S", "M", "L"],
+    sezon: "Primăvară/Toamnă",
+    stil_general: ["classic", "minimalist"],
+    ocazie: ["business casual", "office"],
+    detalii: {
+      material: "Tricot cu lână",
+      croiala: "Strâmt",
+      tip_maneca: "Fără/Scurtă"
+    }
+  },
+  {
+    cod_articol: "5755/130/406",
+    model: "PULOVER CU MÂNECĂ SCURTĂ DIN TRICOT",
+    pret_ron: 119.90,
+    culoare: "Albastru deschis",
+    img_url: "wardrobe/tricou/tricou8.jpg",
+    marimi_disponibile: ["S", "M", "L", "XL"],
+    sezon: "Primăvară/Toamnă",
+    stil_general: ["chic", "soft"],
+    ocazie: ["daily", "office"],
+    detalii: {
+      material: "Tricot tușeu moale",
+      croiala: "Standard",
+      tip_maneca: "Scurtă"
+    }
+  },
+  {
+    cod_articol: "4174/153/250",
+    model: "TRICOU RUSTIC CU MÂNECĂ TREI SFERTURI",
+    pret_ron: 59.90,
+    culoare: "Alb",
+    img_url: "wardrobe/tricou/tricou10.jpg",
+    marimi_disponibile: ["S", "M", "L", "XL"],
+    sezon: "Primăvară/Toamnă",
+    stil_general: ["casual", "rustic"],
+    ocazie: ["weekend", "daily"],
+    detalii: {
+      material: "Bumbac Rustic",
+      croiala: "Oversize",
+      tip_maneca: "Trei sferturi"
+    }
+  },
+{
+    cod_articol: "NEW-TR011",
+    model: "TRICOU CU IMPRIMEU FUNDIȚE",
+    pret_ron: 49.90,
+    culoare: "Alb / Roz",
+    img_url: "wardrobe/tricou/tricou11.jpg",
+    marimi_disponibile: ["S", "M", "L", "XL"],
+    sezon: "Primăvară/Vară",
+    stil_general: ["casual", "girly"],
+    ocazie: ["daily", "brunch"],
+    detalii: {
+      material: "Bumbac",
+      croiala: "Regular Fit",
+      tip_maneca: "Scurtă"
+    }
+  },
+  {
+    cod_articol: "NEW-TR013",
+    model: "TRICOU OVERSIZE CU IMPRIMEU JAPONEZ",
+    pret_ron: 89.90,
+    culoare: "Negru / Roșu",
+    img_url: "wardrobe/tricou/tricou13.jpg",
+    marimi_disponibile: ["S", "M", "L", "XL"],
+    sezon: "All Season",
+    stil_general: ["streetwear"],
+    ocazie: ["daily", "outing"],
+    detalii: {
+      material: "Bumbac",
+      croiala: "Oversize",
+      tip_maneca: "Scurtă"
+    }
+  },
+  {
+    cod_articol: "NEW-TR014",
+    model: "TRICOU PUMA LOGO",
+    pret_ron: 99.90,
+    culoare: "Negru",
+    img_url: "wardrobe/tricou/tricou14.jpg",
+    marimi_disponibile: ["S", "M", "L"],
+    sezon: "All Season",
+    stil_general: ["sportive", "casual"],
+    ocazie: ["gym", "daily"],
+    detalii: {
+      material: "Bumbac / Elastan",
+      croiala: "Standard",
+      tip_maneca: "Scurtă"
+    }
+  },
+  {
+    cod_articol: "NEW-TR015",
+    model: "TRICOU BASIC MULAT",
+    pret_ron: 39.90,
+    culoare: "Fucsia",
+    img_url: "wardrobe/tricou/tricou15.jpg",
+    marimi_disponibile: ["S", "M", "L"],
+    sezon: "Vară",
+    stil_general: ["minimalist", "vibrant"],
+    ocazie: ["daily", "outing"],
+    detalii: {
+      material: "Sintetic / Elastic",
+      croiala: "Strâmt",
+      tip_maneca: "Scurtă"
+    }
+  }
+];

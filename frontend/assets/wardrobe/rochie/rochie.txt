@@ -1,0 +1,140 @@
+import { Rochie } from '../models/wardrobe';
+
+export const DATE_ROCHII: Rochie[] = [
+  {
+    cod_articol: "2534/111/250",
+    model: "ROCHIE TIP CORSJ VOLUMINOASĂ",
+    pret_ron: 149.90,
+    culoare: "Alb",
+    lungime: "Scurtă",
+    img_url: "wardrobe/rochie/rochie1.jpg",
+    marimi_disponibile: ["XS", "S", "M", "L", "XL", "XXL"],
+    sezon: "Vară",
+    stil_general: ["elegant", "party"],
+    ocazie: ["evening", "cocktail"],
+    detalii: {
+      tip_talie: "standard",
+      inchidere: ["fermoar lateral ascuns"],
+      stil: "Voluminoasă"
+    }
+  },
+  {
+    cod_articol: "2310/002/250",
+    model: "ROCHIE MIDI CU SPATELE GOL",
+    pret_ron: 169.90,
+    culoare: "Alb",
+    lungime: "Midi",
+    img_url: "wardrobe/rochie/rochie2.jpg",
+    marimi_disponibile: ["XS", "S", "M", "L", "XL", "XXL"],
+    sezon: "Vară",
+    stil_general: ["chic", "minimalist"],
+    ocazie: ["date night", "summer party"],
+    detalii: {
+      tip_talie: "standard",
+      inchidere: ["fermoar ascuns în cusătură", "șnur la guler"],
+      stil: "Spate gol"
+    }
+  },
+  {
+    cod_articol: "2298/057/330",
+    model: "ROCHIE CU IMPRIMEU FLORAL ȘI CUREA",
+    pret_ron: 229.90,
+    culoare: "Multicolor",
+    lungime: "Midi",
+    img_url: "wardrobe/rochie/rochie3.jpg",
+    marimi_disponibile: ["XS", "S", "M", "L", "XL"],
+    sezon: "Primăvară/Toamnă",
+    stil_general: ["romantic", "boho"],
+    ocazie: ["daily", "brunch"],
+    detalii: {
+      tip_talie: "elastică",
+      inchidere: [],
+      stil: "Imprimeu floral / Plisată"
+    }
+  },
+  {
+    cod_articol: "9598/020/087",
+    model: "ROCHIE DIN TRICOT CU BULINE",
+    pret_ron: 169.90,
+    culoare: "Maro / Ecru",
+    lungime: "Lungă",
+    img_url: "wardrobe/rochie/rochie4.jpg",
+    marimi_disponibile: ["S", "M", "L", "XL"],
+    sezon: "Primăvară/Toamnă",
+    stil_general: ["casual", "vintage"],
+    ocazie: ["daily", "office"],
+    detalii: {
+      tip_talie: "fără",
+      inchidere: [],
+      stil: "Tricot cu buline"
+    }
+  },
+  {
+    cod_articol: "3564/084/070",
+    model: "ROCHIE MIDI COMBINATĂ CU DUNGĂ ȘI CUREA",
+    pret_ron: 229.90,
+    culoare: "Ecru / Negru",
+    lungime: "Midi",
+    img_url: "wardrobe/rochie/rochie5.jpg",
+    marimi_disponibile: ["XS", "S", "M", "L", "XL"],
+    sezon: "All Season",
+    stil_general: ["office", "classic"],
+    ocazie: ["work", "business meeting"],
+    detalii: {
+      tip_talie: "cu curea",
+      inchidere: ["fermoar lateral ascuns", "nasturi frontali"],
+      stil: "Combinată cu dungă"
+    }
+  },
+{
+    cod_articol: "NEW-R006",
+    model: "FUSTĂ DIN TRICOT CU INIMI",
+    pret_ron: 129.90,
+    culoare: "Alb / Roșu",
+    lungime: "Scurtă",
+    img_url: "wardrobe/rochie/rochie6.jpg",
+    marimi_disponibile: ["S", "M", "L"],
+    sezon: "Iarnă/Primăvară",
+    stil_general: ["romantic", "casual"],
+    ocazie: ["daily", "date night"],
+    detalii: {
+      tip_talie: "înaltă / elastică",
+      inchidere: [],
+      stil: "Tricot jacquard"
+    }
+  },
+  {
+    cod_articol: "NEW-R007",
+    model: "BODYSUIT TIP SHORT REIAT",
+    pret_ron: 119.90,
+    culoare: "Albastru deschis",
+    lungime: "Scurtă",
+    img_url: "wardrobe/rochie/rochie7.jpg",
+    marimi_disponibile: ["XS", "S", "M", "L"],
+    sezon: "Vară",
+    stil_general: ["sport", "casual"],
+    ocazie: ["gym", "daily"],
+    detalii: {
+      tip_talie: "fără",
+      inchidere: [],
+      stil: "Seamless / Reiat"
+    }
+  },
+  {
+    cod_articol: "NEW-R008",
+    model: "TOP/ROCHIE TIP TUB ELASTICĂ",
+    pret_ron: 79.90,
+    culoare: "Violet / Indigo",
+    lungime: "Scurtă",
+    img_url: "wardrobe/rochie/rochie8.jpg",
+    marimi_disponibile: ["S", "M", "L"],
+    sezon: "Vară",
+    stil_general: ["minimalist", "party"],
+    ocazie: ["club", "beach party"],
+    detalii: {
+      tip_talie: "standard",
+      inchidere: [],
+      stil: "Bandeau / Elastic"
+    }
+  }
+];

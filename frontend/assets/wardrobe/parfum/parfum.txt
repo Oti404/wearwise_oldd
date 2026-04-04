@@ -1,0 +1,40 @@
+import { Parfum } from '../models/wardrobe';
+
+export const DATE_PARFUMURI: Parfum[] = [
+    {
+        cod: "0110/671/999",
+        nume: "EBONY WOOD EDP 100ML",
+        colectie: "Zara Emotions",
+        pret: 149.9,
+        moneda: "RON",
+        gramaj: "100ML",
+        note: ["lemnos", "condimentat"]
+    },
+    {
+        cod: "0110/820/999",
+        nume: "FASHIONABLY LONDON ELIXIR PARFUM 100ML",
+        colectie: "Standard",
+        pret: 169.9,
+        moneda: "RON",
+        gramaj: "100ml",
+        note: ["floral", "elegant"]
+    },
+    {
+        cod: "0110/518/999",
+        nume: "GOLDEN DECADE EDP 80 ML",
+        colectie: "Standard",
+        pret: 99.9,
+        moneda: "RON",
+        gramaj: "80 ML",
+        note: ["oriental", "vanilat"]
+    },
+    {
+        cod: "2012/881/636",
+        nume: "PINK FLAMBÉ EDT 90 ML",
+        colectie: "Standard",
+        pret: 65.9,
+        moneda: "RON",
+        gramaj: "90 ml",
+        note: ["fructat", "dulce"]
+    }
+];

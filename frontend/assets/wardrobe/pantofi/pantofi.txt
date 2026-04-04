@@ -1,0 +1,164 @@
+import { Pantof } from '../models/wardrobe.models';
+
+export const DATE_PANTOFI: Pantof[] = [
+  {
+    cod_articol: "1283/710/102",
+    model: "PANTOFI ASIMETRICI CU TOC DIN CATIFEA",
+    pret_ron: 199.90,
+    culoare: "Bej",
+    img_url: "wardrobe/pantof/pantof1.jpg",
+    marimi_disponibile: ["35", "36", "37", "38", "39", "40", "41", "42"],
+    sezon: 'Primăvară/Toamnă',
+    stil_general: ['elegant', 'party'],
+    ocazie: ['wedding', 'gala'],
+    detalii: {
+      tip_pantof: "Pantofi cu toc",
+      inchidere: ["cataramă reglabilă"],
+      material: "Catifea"
+    }
+  },
+  {
+    cod_articol: "1212/710/105",
+    model: "PANTOFI FĂRĂ TOC CU BARETĂ LA SPATE",
+    pret_ron: 199.90,
+    culoare: "Maro",
+    img_url: "wardrobe/pantof/pantof2.jpg",
+    marimi_disponibile: ["35", "36", "37", "38", "39", "40", "41", "42"],
+    sezon: 'Primăvară/Toamnă',
+    stil_general: ['office', 'casual'],
+    ocazie: ['business', 'daily'],
+    detalii: {
+      tip_pantof: "Pantofi fara toc",
+      inchidere: ["baretă la spate cu inserție elastică"],
+      material: "Piele întoarsă"
+    }
+  },
+  {
+    cod_articol: "2537/610/116",
+    model: "BALERINI DIN PIELE ÎNTOARSĂ",
+    pret_ron: 199.90,
+    culoare: "Maro-ciocolatiu",
+    img_url: "wardrobe/pantof/pantof3.jpg",
+    marimi_disponibile: ["35", "36", "37", "38", "39", "40", "41", "42"],
+    sezon: 'Primăvară/Toamnă',
+    stil_general: ['casual', 'office'],
+    ocazie: ['daily', 'business'],
+    detalii: {
+      tip_pantof: "Balerini",
+      inchidere: ["cataramă pe partea superioară"],
+      material: "Piele întoarsă"
+    }
+  },
+  {
+    cod_articol: "2242/710/600",
+    model: "PANTOFI DIN PIELE CU TOC ȘI BARETĂ LA SPATE",
+    pret_ron: 199.90,
+    culoare: "Roșu",
+    img_url: "wardrobe/pantof/pantof4.jpg",
+    marimi_disponibile: ["35", "36", "37", "38", "39", "40", "41", "42"],
+    sezon: 'Primăvară/Toamnă',
+    stil_general: ['elegant', 'chic'],
+    ocazie: ['party', 'date'],
+    detalii: {
+      tip_pantof: "Pantofi cu toc",
+      inchidere: ["baretă la spate cu detaliu elastic"],
+      material: "Piele"
+    }
+  },
+  {
+    cod_articol: "2562/610/800",
+    model: "BALERINI DIN PIELE CU APLICAȚII",
+    pret_ron: 199.90,
+    culoare: "Negru",
+    img_url: "wardrobe/pantof/pantof5.jpg",
+    marimi_disponibile: ["35", "36", "37", "38", "39", "40", "41", "42"],
+    sezon: 'Primăvară/Toamnă',
+    stil_general: ['casual', 'elegant'],
+    ocazie: ['daily', 'party'],
+    detalii: {
+      tip_pantof: "Balerini",
+      inchidere: [],
+      material: "Piele"
+    }
+  },
+  {
+    cod_articol: "2257/710/183",
+    model: "PANTOFI CU TOC ȘI DECUPAJE",
+    pret_ron: 149.90,
+    culoare: "pământiu",
+    img_url: "wardrobe/pantof/pantof6.jpg",
+    marimi_disponibile: ["35", "36", "37", "38", "39", "40", "41", "42"],
+    sezon: 'Vară',
+    stil_general: ['elegant'],
+    ocazie: ['party', 'date'],
+    detalii: {
+      tip_pantof: "Pantofi cu toc",
+      inchidere: ["cataramă metalică"],
+      material: "Sintetic/Piele"
+    }
+  },
+  {
+    cod_articol: "2257/710/183-D",
+    model: "PANTOFI CU TOC ȘI DECUPAJE (D)",
+    pret_ron: 149.90,
+    culoare: "pământiu",
+    img_url: "wardrobe/pantof/pantof7.jpg",
+    marimi_disponibile: ["35", "36", "37", "38", "39", "40", "41", "42"],
+    sezon: 'Vară',
+    stil_general: ['elegant'],
+    ocazie: ['party'],
+    detalii: {
+      tip_pantof: "Pantofi cu toc",
+      inchidere: ["cataramă metalică"],
+      material: "Standard"
+    }
+  },
+  {
+    cod_articol: "2514/710/700",
+    model: "SABOȚI DIN PIELE CU ȚINTE",
+    pret_ron: 229.90,
+    culoare: "Maro",
+    img_url: "wardrobe/pantof/pantof8.jpg",
+    marimi_disponibile: ["35", "36", "37", "38", "39", "40", "41", "42"],
+    sezon: 'Vară',
+    stil_general: ['boho', 'casual'],
+    ocazie: ['daily', 'holiday'],
+    detalii: {
+      tip_pantof: "Saboți",
+      inchidere: [],
+      material: "Piele"
+    }
+  },
+  {
+    cod_articol: "12226710700",
+    model: "PANTOFI CU TOC ȘI BARETĂ LA SPATE",
+    pret_ron: null,
+    culoare: "Argintiu",
+    img_url: "wardrobe/pantof/pantof9.jpg",
+    marimi_disponibile: [],
+    sezon: 'Vară',
+    stil_general: ['elegant', 'glam'],
+    ocazie: ['party', 'wedding'],
+    detalii: {
+      tip_pantof: "Pantofi cu toc",
+      inchidere: ["baretă la spate"],
+      material: "Metalizat"
+    }
+  },
+  {
+    cod_articol: "1550/710/002",
+    model: "BALERINI DIN PIELE CU FUNDĂ (LIMITED)",
+    pret_ron: 319.90,
+    culoare: "Alb-ecru",
+    img_url: "wardrobe/pantof/pantof10.jpg",
+    marimi_disponibile: ["36", "37", "38", "39", "40", "41"],
+    sezon: 'Primăvară/Toamnă',
+    stil_general: ['chic', 'elegant'],
+    ocazie: ['daily', 'office'],
+    detalii: {
+      tip_pantof: "Balerini",
+      inchidere: [],
+      material: "Piele"
+    }
+  }
+];
