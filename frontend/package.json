@@ -51,7 +51,7 @@
   },
   "devDependencies": {
     "@react-native-community/cli": "^20.1.2",
-    "@react-native/metro-config": "^0.84.1",
+    "@react-native/metro-config": "^0.88.1",
     "@types/react": "~19.1.0",
     "babel-plugin-transform-import-meta": "^2.3.3",
     "eslint": "^9.25.0",
